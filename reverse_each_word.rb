@@ -4,6 +4,6 @@ def reverse_each_word(string)
     return new_array.join
 end
 
-def go_over(array)
+def reverse_each_word(array)
   array.collect(&:reverse).join(" ")
 end
