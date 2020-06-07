@@ -4,8 +4,6 @@ def reverse_each_word(string)
     return new_array.join
 end
 
-def reverse_each_word_collect(string)
-  string_array = string.split[" "]
-  string_array.collect |word| word.reverse
-  string_array.join
+def go_over(array)
+  array.collect(&:reverse).join(" ")
 end
